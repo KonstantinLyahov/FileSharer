@@ -1,0 +1,54 @@
+<html>
+    <body>
+        кол-во строк<input type="text" id="rows"><br>
+        кол-во столбцов<input type="text" id="columns"><br>
+        <button id="butCreateTable">создать таблицу</button><br>
+        <button id="butRed">покрасить все четные в красный</button><br>
+        <button id="butChess">покрасить в шахматном порядке</button><br>
+        <table id="table" border="1px"></table>
+        <script>
+            var table=document.getElementById("table");
+            var butCreateTab=document.getElementById("butCreateTable");
+            var butRed=document.getElementById("butRed");
+            var butChess=document.getElementById("butChess");
+            var colCount,rowCount;
+
+            butCreateTab.onclick=function(){
+                table.innerHTML="";
+                colCount=document.getElementById("columns").value;
+                rowCount=document.getElementById("rows").value;
+                for(var i=1;i<=rowCount;i++){
+                    var tr=document.createElement("tr");
+                    for(var j=1;j<=colCount;j++){
+                        tr.innerHTML+="<td style='width:50px;height:50px'></td>";
+                    }
+                    table.appendChild(tr);
+                }
+            }
+
+            butRed.onclick=function(){
+                for(var i=1;i<=rowCount;i++){
+                    for(var j=1;j<=colCount;j++){
+                        if(j%2==0){
+                            table.childNodes[i-1].childNodes[j-1].style.backgroundColor="red";
+                        }else{
+                            table.childNodes[i-1].childNodes[j-1].style.backgroundColor="white";
+                        }
+                    }
+                }
+            }
+
+            butChess.onclick=function(){
+                for(var i=1;i<=rowCount;i++){
+                    for(var j=1;j<=colCount;j++){
+                        if((j+i)%2==0){
+                            table.childNodes[i-1].childNodes[j-1].style.backgroundColor="black";
+                        }else{
+                            table.childNodes[i-1].childNodes[j-1].style.backgroundColor="white";
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

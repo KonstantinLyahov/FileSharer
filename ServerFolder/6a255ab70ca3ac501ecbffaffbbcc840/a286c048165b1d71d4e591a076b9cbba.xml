@@ -1,0 +1,1588 @@
+<Packages>
+    <ApplicationName>Qt</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Title>Qt</Title>
+        <Description>Qt</Description>
+        <Version>1.0.9</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.thirdparty,qt.license.lgpl</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.installer.changelog</Name>
+        <Title>Qt Installer Changelog</Title>
+        <Description></Description>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1702</Size>
+        <AutoDependOn>qt</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.lgpl</Name>
+        <Title>Qt License LGPL</Title>
+        <Description></Description>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.python</Name>
+        <Title>Python Software Foundation License Version 2</Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.thirdparty</Name>
+        <Title>Qt 3rd Party Licenses</Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>106261</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121</Name>
+        <Title>Qt 5.12.1</Title>
+        <Description>Qt 5.12.1</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2246</Size>
+        <Dependencies>qt.qt5.5121.doc,qt.qt5.5121.examples,qt.license.thirdparty,qt.license.lgpl</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.android_arm64_v8a</Name>
+        <Title>Android ARM64-v8a</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Android ARM64-v8a</Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>282519799</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples,qt.tools.win64_mingw730</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.android_armv7</Name>
+        <Title>Android ARMv7</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Android ARMv7</Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>260392222</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples,qt.tools.win64_mingw730</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.android_x86</Name>
+        <Title>Android x86</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Android x86</Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>276405918</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples,qt.tools.win64_mingw730</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info</Name>
+        <Title>Qt Debug Information Files</Title>
+        <Description>Qt 5.12.1 debug information files. Requires selection of target binary like gcc or MSVC.</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win32_msvc2017</Name>
+        <Title>Desktop MSVC 2017 Debug Information Files</Title>
+        <Description>Qt 5.12.1 debug information files for Desktop MSVC 2017</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>3740882256</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2015_64</Name>
+        <Title>Desktop MSVC 2015 64-bit debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for Desktop MSVC 2015 64-bit</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2994922792</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2015_winrt_armv7</Name>
+        <Title>UWP ARMv7 (MSVC 2015) debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for UWP ARMv7 (MSVC 2015)</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2273743888</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2015_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2015_winrt_x64</Name>
+        <Title>UWP x64 (MSVC 2015) debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for UWP x64 (MSVC 2015)</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2269434896</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2015_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2015_winrt_x86</Name>
+        <Title>UWP x86 (MSVC 2015) debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for UWP x64 (MSVC 2015)</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2266149904</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2015_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2017_64</Name>
+        <Title>Desktop MSVC 2017 64-bit debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for Desktop MSVC 2017 64-bit</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>5847520592</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2017_winrt_armv7</Name>
+        <Title>UWP ARMv7 (MSVC 2017) debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for UWP ARMv7 (MSVC 2015)</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2221282320</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2017_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2017_winrt_x64</Name>
+        <Title>UWP x64 (MSVC 2017) debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for UWP x64 (MSVC 2015)</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2226639888</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2017_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.debug_info.win64_msvc2017_winrt_x86</Name>
+        <Title>UWP x86 (MSVC 2017) debug information files</Title>
+        <Description>Qt 5.12.1 debug information files for UWP x64 (MSVC 2015)</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2233717776</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.debug_info,qt.qt5.5121.win64_msvc2017_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc</Name>
+        <Title>Qt 5.12.1 Documentation</Title>
+        <Description>Qt 5.12.1 documentation</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>585644699</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtcharts</Name>
+        <Title>Documentation for Qt 5.12.1 GPLv3 components (QtCharts)</Title>
+        <Description>Documentation for Qt 5.12.1 GPLv3 components (QtCharts)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>20130964</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtdatavis3d</Name>
+        <Title>Documentation for Qt 5.12.1 GPLv3 components (QtDataVisualization)</Title>
+        <Description>Documentation for Qt 5.12.1 GPLv3 components (QtDataVisualization)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>22517302</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtnetworkauth</Name>
+        <Title>Documentation for Qt Networkauth (Technology Preview)</Title>
+        <Description>Documentation for Qt Networkauth (Technology Preview)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1237235</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtpurchasing</Name>
+        <Title>Documentation for Qt 5.12.1 GPLv3 components (QtPurchasing)</Title>
+        <Description>Documentation for Qt 5.12.1 GPLv3 components (QtPurchasing)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1341919</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtscript</Name>
+        <Title>Documentation for Qt 5.12.1 Deprecated components (QtScript)</Title>
+        <Description>Documentation for Qt 5.12.1 Deprecated components (QtScript)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>4773453</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtvirtualkeyboard</Name>
+        <Title>Documentation for Qt 5.12.1 GPLv3 components (QtVirtualKeyboard)</Title>
+        <Description>Documentation for Qt 5.12.1 GPLv3 components (QtVirtualKeyboard)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>4585646</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.doc.qtwebengine</Name>
+        <Title>Documentation for QtWebEngine</Title>
+        <Description>Documentation for QtWebEngine</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>13149604</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples</Name>
+        <Title>Qt 5.12.1 Examples</Title>
+        <Description>Qt 5.12.1 Examples</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>164255796</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtcharts</Name>
+        <Title>Examples for Qt 5.12.1 GPLv3 components (QtCharts)</Title>
+        <Description>Examples for Qt 5.12.1 GPLv3 components (QtCharts)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>528681</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtdatavis3d</Name>
+        <Title>Examples for Qt 5.12.1 GPLv3 components (QtDataVisualization)</Title>
+        <Description>Examples for Qt 5.12.1 GPLv3 components (QtDataVisualization)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>5877517</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtnetworkauth</Name>
+        <Title>Examples for Qt Networkauth (Technology Preview)</Title>
+        <Description>Examples for Qt Networkauth (Technology Preview)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>116119</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtpurchasing</Name>
+        <Title>Examples for Qt 5.12.1 GPLv3 components (QtPurchasing)</Title>
+        <Description>Examples for Qt 5.12.1 GPLv3 components (QtPurchasing)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>345017</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtscript</Name>
+        <Title>Examples for Qt 5.12.1 Deprecated components (QtScript)</Title>
+        <Description>Examples for Qt 5.12.1 Deprecated components (QtScript)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>315104</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtvirtualkeyboard</Name>
+        <Title>Examples for Qt 5.12.1 GPLv3 components (QtVirtualKeyboard)</Title>
+        <Description>Examples for Qt 5.12.1 GPLv3 components (QtVirtualKeyboard)</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>37568</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.examples.qtwebengine</Name>
+        <Title>Examples for QtWebEngine</Title>
+        <Description>Examples for QtWebEngine</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1719299</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts</Name>
+        <Title>Qt Charts</Title>
+        <Description>The Qt Charts API lets you easily create interactive and dynamic 2D charts using C++ and/or Qt Quick.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtcharts,qt.qt5.5121.examples.qtcharts</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.android_arm64_v8a</Name>
+        <Title>Qt Charts for Android ARM64-v8a</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>3831408</Size>
+        <Dependencies>qt.qt5.5121.android_arm64_v8a</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.android_arm64_v8a</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.android_armv7</Name>
+        <Title>Qt Charts for Android ARMv7</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>3265561</Size>
+        <Dependencies>qt.qt5.5121.android_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.android_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.android_x86</Name>
+        <Title>Qt Charts for Android x86</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>3591381</Size>
+        <Dependencies>qt.qt5.5121.android_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.android_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win32_msvc2017</Name>
+        <Title>Qt Charts for MSVC 2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>8990921</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_mingw73</Name>
+        <Title>Qt Charts for MinGW 7.3.0 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>131669678</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2015_64</Name>
+        <Title>Qt Charts for MSVC 2015 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>10004021</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2015_winrt_armv7</Name>
+        <Title>Qt Charts for UWP ARMv7 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>9962644</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2015_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2015_winrt_x64</Name>
+        <Title>Qt Charts for UWP x64 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>9996538</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2015_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2015_winrt_x86</Name>
+        <Title>Qt Charts for UWP x86 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>8819500</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2015_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2017_64</Name>
+        <Title>Qt Charts for MSVC 2017 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>10140823</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2017_winrt_armv7</Name>
+        <Title>Qt Charts for UWP ARMv7 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>10116726</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2017_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2017_winrt_x64</Name>
+        <Title>Qt Charts for UWP x64 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>10129244</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2017_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtcharts.win64_msvc2017_winrt_x86</Name>
+        <Title>Qt Charts for UWP x86 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>8979854</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtcharts,qt.qt5.5121.win64_msvc2017_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d</Name>
+        <Title>Qt Data Visualization</Title>
+        <Description>Qt Data Visualization is a module which provides a way to visualize data in 3D. There are C++ classes and QML types for displaying bar graphs, scatter graphs, surface graphs and ways of manipulating the 3D scene. In addition, the graphs are fully customizable with different themes.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtdatavis3d,qt.qt5.5121.examples.qtdatavis3d</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.android_arm64_v8a</Name>
+        <Title>Qt Data Visualization for Android ARM64-v8a</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2738356</Size>
+        <Dependencies>qt.qt5.5121.android_arm64_v8a</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.android_arm64_v8a</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.android_armv7</Name>
+        <Title>Qt Data Visualization for Android ARMv7</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2477777</Size>
+        <Dependencies>qt.qt5.5121.android_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.android_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.android_x86</Name>
+        <Title>Qt Data Visualization for Android x86</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2641669</Size>
+        <Dependencies>qt.qt5.5121.android_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.android_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win32_msvc2017</Name>
+        <Title>Qt Data Visualization for MSVC 2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>6321756</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_mingw73</Name>
+        <Title>Qt Data Visualization for MinGW 7.3.0 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>123772927</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2015_64</Name>
+        <Title>Qt Data Visualization for MSVC 2015 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>6964764</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2015_winrt_armv7</Name>
+        <Title>Qt Data Visualization for UWP ARMv7 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>6961725</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2015_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2015_winrt_x64</Name>
+        <Title>Qt Data Visualization for UWP x64 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>6940919</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2015_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2015_winrt_x86</Name>
+        <Title>Qt Data Visualization for UWP x86 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>6087381</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2015_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2017_64</Name>
+        <Title>Qt Data Visualization for MSVC 2017 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>7126654</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2017_winrt_armv7</Name>
+        <Title>Qt Data Visualization for UWP armv7 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>7138847</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2017_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2017_winrt_x64</Name>
+        <Title>Qt Data Visualization for UWP x64 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>7094105</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2017_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtdatavis3d.win64_msvc2017_winrt_x86</Name>
+        <Title>Qt Data Visualization for UWP x86 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>6289207</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtdatavis3d,qt.qt5.5121.win64_msvc2017_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth</Name>
+        <Title>Qt Network Authorization</Title>
+        <Description>Qt Network Authorization is an add-on library that enables Qt applications to use different web authentication systems.</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtnetworkauth,qt.qt5.5121.examples.qtnetworkauth</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.android_arm64_v8a</Name>
+        <Title>Qt Network Authorization for Android ARM64-v8a</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>284185</Size>
+        <Dependencies>qt.qt5.5121.android_arm64_v8a</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.android_arm64_v8a</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.android_armv7</Name>
+        <Title>Qt Network Authorization for Android ARMv7</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>250626</Size>
+        <Dependencies>qt.qt5.5121.android_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.android_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.android_x86</Name>
+        <Title>Qt Network Authorization for Android x86</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>254966</Size>
+        <Dependencies>qt.qt5.5121.android_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.android_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win32_msvc2017</Name>
+        <Title>Qt Network Authorization for MSVC 2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>678308</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_mingw73</Name>
+        <Title>Qt Network Authorization for MinGW 7.3.0 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>12240451</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2015_64</Name>
+        <Title>Qt Network Authorization for MSVC 2015 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>770890</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2015_winrt_armv7</Name>
+        <Title>Qt Network Authorization for UWP ARMv7 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>795001</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2015_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2015_winrt_x64</Name>
+        <Title>Qt Network Authorization for UWP x64 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>767001</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2015_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2015_winrt_x86</Name>
+        <Title>Qt Network Authorization for UWP x86 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>641553</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2015_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2017_64</Name>
+        <Title>Qt Network Authentication for MSVC 2017_64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>801708</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2017_winrt_armv7</Name>
+        <Title>Qt Network Authentication for UWP ARMv7 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>828763</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2017_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2017_winrt_x64</Name>
+        <Title>Qt Network Authentication for UWP x64 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>795259</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2017_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtnetworkauth.win64_msvc2017_winrt_x86</Name>
+        <Title>Qt Network Authentication for UWP x86 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>672371</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtnetworkauth,qt.qt5.5121.win64_msvc2017_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing</Name>
+        <Title>Qt Purchasing</Title>
+        <Description>Qt Purchasing. Cross-platform APIs for handling in-app purchases on Android, iOS and macOS.</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtpurchasing,qt.qt5.5121.examples.qtpurchasing</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.android_arm64_v8a</Name>
+        <Title>Qt Purchasing for Android ARM64-v8a</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>228839</Size>
+        <Dependencies>qt.qt5.5121.android_arm64_v8a</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.android_arm64_v8a</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.android_armv7</Name>
+        <Title>Qt Purchasing for Android ARMv7</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>216476</Size>
+        <Dependencies>qt.qt5.5121.android_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.android_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.android_x86</Name>
+        <Title>Qt Purchasing for Android x86</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>207484</Size>
+        <Dependencies>qt.qt5.5121.android_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.android_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win32_msvc2017</Name>
+        <Title>Qt Purchasing for MSVC 2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>362002</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_mingw73</Name>
+        <Title>Qt Purchasing for MinGW 7.3.0 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>7099819</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2015_64</Name>
+        <Title>Qt Purchasing for MSVC 2015 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>422654</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2015_winrt_armv7</Name>
+        <Title>Qt Purchasing for UWP ARMv7 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1065970</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2015_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2015_winrt_x64</Name>
+        <Title>Qt Purchasing for UWP x64 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1038808</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2015_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2015_winrt_x86</Name>
+        <Title>Qt Purchasing for UWP x86 (MSVC 2015)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>887946</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2015_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2017_64</Name>
+        <Title>Qt Purchasing for MSVC 2017 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>439648</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2017_winrt_armv7</Name>
+        <Title>Qt Purchasing for UWP ARMv7 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1063380</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2017_winrt_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2017_winrt_x64</Name>
+        <Title>Qt Purchasing for UWP x64 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1037882</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2017_winrt_x64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtpurchasing.win64_msvc2017_winrt_x86</Name>
+        <Title>Qt Purchasing for UWP x86 (MSVC 2017)</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>891628</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_winrt_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtpurchasing,qt.qt5.5121.win64_msvc2017_winrt_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript</Name>
+        <Title>Qt Script (Deprecated)</Title>
+        <Description>Qt Script (Deprecated) Prebuilt Components for Qt 5.12.1.&lt;br>&lt;br>This component contains Third-Party Content licensed under LGPLv2.0. Please note the additional requirements of the license.</Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtscript,qt.qt5.5121.examples.qtscript</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.android_arm64_v8a</Name>
+        <Title>Qt Script for Android ARM64-v8a</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>3594088</Size>
+        <Dependencies>qt.qt5.5121.android_arm64_v8a</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.android_arm64_v8a</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.android_armv7</Name>
+        <Title>Qt Script for Android ARMv7</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2870138</Size>
+        <Dependencies>qt.qt5.5121.android_armv7</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.android_armv7</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.android_x86</Name>
+        <Title>Qt Script for Android x86</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300710</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>3915931</Size>
+        <Dependencies>qt.qt5.5121.android_x86</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.android_x86</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.win32_msvc2017</Name>
+        <Title>Qt Script for MSVC 2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>10508238</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.win64_mingw73</Name>
+        <Title>Qt Script for MinGW 7.3.0 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>169941059</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.win64_msvc2015_64</Name>
+        <Title>Qt Script for MSVC 2015 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>9891646</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtscript.win64_msvc2017_64</Name>
+        <Title>Qt Script for MSVC 2017 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>11049986</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtscript,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtvirtualkeyboard</Name>
+        <Title>Qt Virtual Keyboard</Title>
+        <Description>The Qt Virtual Keyboard is a Qt Quick virtual keyboard that you can plug in to your platform or application. You can extend it with your own layouts and styles.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtvirtualkeyboard,qt.qt5.5121.examples.qtvirtualkeyboard</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtvirtualkeyboard.win32_msvc2017</Name>
+        <Title>Qt Virtual Keyboard for MSVC 2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>12706622</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtvirtualkeyboard,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtvirtualkeyboard.win64_mingw73</Name>
+        <Title>Qt Virtual Keyboard for MinGW 7.3.0 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>75241248</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtvirtualkeyboard,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtvirtualkeyboard.win64_msvc2015_64</Name>
+        <Title>Qt Virtual Keyboard for MSVC 2015 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>13322146</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtvirtualkeyboard,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtvirtualkeyboard.win64_msvc2017_64</Name>
+        <Title>Qt Virtual Keyboard for MSVC 2017 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>13427716</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtvirtualkeyboard,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebengine</Name>
+        <Title>Qt WebEngine</Title>
+        <Description>The Qt WebEngine module integrates the fast moving Chromium web platform into Qt and provides a convenient API for both Qt Widgets and Qt Quick to utilize Chromium's web capabilities. Qt WebEngine takes full benefit of the whole Qt graphics stack integration allowing seamless mix and overlay of native Qt controls with web content and OpenGL shaders.&lt;br>&lt;br>On Windows, the module is only available under MSVC 2017.&lt;br>&lt;br>This component contains Third-Party Content licensed under LGPLv2.1. Please note the additional requirements of the license.</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt5.5121.doc.qtwebengine,qt.qt5.5121.examples.qtwebengine</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebengine.win32_msvc2017</Name>
+        <Title>Qt WebEngine for msvc2017 32-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>220239149</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtwebengine,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebengine.win64_msvc2017_64</Name>
+        <Title>Qt WebEngine for MSVC 2017 64-bit</Title>
+        <Description></Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>283689421</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtwebengine,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebglplugin</Name>
+        <Title>Qt WebGL Streaming Plugin</Title>
+        <Description>The Qt WebGL Streaming Plugin is a Qt Platform Abstraction plugin which provides streaming of Qt Quick &amp; Qt OpenGL applications over the network to a WebGL capable browser.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebglplugin.win32_msvc2017</Name>
+        <Title>Qt WebGL Streaming Plugin for MSVC 2017 32-bit</Title>
+        <Description>Qt WebGL Streaming Plugin</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1665869</Size>
+        <Dependencies>qt.qt5.5121.win32_msvc2017</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtwebglplugin,qt.qt5.5121.win32_msvc2017</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebglplugin.win64_mingw73</Name>
+        <Title>Qt WebGL Streaming Plugin for MinGW 7.3.0 64-bit</Title>
+        <Description>Qt WebGL Streaming Plugin</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>17681678</Size>
+        <Dependencies>qt.qt5.5121.win64_mingw73</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtwebglplugin,qt.qt5.5121.win64_mingw73</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebglplugin.win64_msvc2015_64</Name>
+        <Title>Qt WebGL Streaming Plugin for MSVC 2015 64-bit</Title>
+        <Description>Qt WebGL Streaming Plugin</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1777485</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2015_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtwebglplugin,qt.qt5.5121.win64_msvc2015_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.qtwebglplugin.win64_msvc2017_64</Name>
+        <Title>Qt WebGL Streaming Plugin for msvc2017_64-bit</Title>
+        <Description>Qt WebGL Streaming Plugin</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>1964877</Size>
+        <Dependencies>qt.qt5.5121.win64_msvc2017_64</Dependencies>
+        <AutoDependOn>qt.qt5.5121.qtwebglplugin,qt.qt5.5121.win64_msvc2017_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.src</Name>
+        <Title>Sources</Title>
+        <Description>Qt 5.12.1 Source Components</Description>
+        <Version>5.12.1-0-201901300644</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>2297547080</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win32_msvc2017</Name>
+        <Title>MSVC 2017 32-bit</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for MSVC 2017 32-bit</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>522020511</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_mingw73</Name>
+        <Title>MinGW 7.3.0 64-bit</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for MinGW 7.3.0 64-bit</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>5237206438</Size>
+        <Dependencies>qt.tools.qtcreator,qt.tools.win64_mingw730,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2015_64</Name>
+        <Title>MSVC 2015 64-bit</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for MSVC 2015 64-bit</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>610555420</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2015_winrt_armv7</Name>
+        <Title>UWP ARMv7 (MSVC 2015)</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Universal Windows Platform</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>502153866</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2015_winrt_x64</Name>
+        <Title>UWP x64 (MSVC 2015)</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Universal Windows Platform</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>498282274</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2015_winrt_x86</Name>
+        <Title>UWP x86 (MSVC 2015)</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Universal Windows Platform</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>443497987</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2017_64</Name>
+        <Title>MSVC 2017 64-bit</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for MSVC 2017 64-bit</Description>
+        <Version>5.12.1-0-201901300519</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>614775231</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2017_winrt_armv7</Name>
+        <Title>UWP ARMv7 (MSVC 2017)</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Universal Windows Platform</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>504942501</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2017_winrt_x64</Name>
+        <Title>UWP x64 (MSVC 2017)</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Universal Windows Platform</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>501528963</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt5.5121.win64_msvc2017_winrt_x86</Name>
+        <Title>UWP x86 (MSVC2017)</Title>
+        <Description>Qt 5.12.1 Prebuilt Components for Universal Windows Platform</Description>
+        <Version>5.12.1-0-201901300715</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>448459770</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt5.5121.doc,qt.qt5.5121.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Title>Developer and Designer Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <Version>1.0.8-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.maintenance</Name>
+        <Title>Maintenance Tool</Title>
+        <Description>Maintenance Tool</Description>
+        <Version>3.0.6-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>20204033</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Title>Qt Creator 4.8.1</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>4.8.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>444906068</Size>
+        <Dependencies>qt.tools.vcredist_msvc2015_x86,qt.tools.vcredist_msvc2015_x64</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreatorcdbext</Name>
+        <Title>Qt Creator 4.8.1 CDB Debugger Support</Title>
+        <Description>CDB Debugger support for Qt Creator</Description>
+        <Version>4.8.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>9759486</Size>
+        <Dependencies>qt.tools.qtcreator,qt.license.python</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2015_x64</Name>
+        <Title>VCRedist for MSVC 2015 64bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2015 64 bit</Description>
+        <Version>2017-03-22-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>14572040</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2015_x86</Name>
+        <Title>VCRedist for MSVC 2015 32bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2015 32 bit</Description>
+        <Version>2017-02-01-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>14456912</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.win64_mingw730</Name>
+        <Title>MinGW 7.3.0 64-bit</Title>
+        <Description>MinGW-builds 7.3.0 64-bit toolchain.</Description>
+        <Version>7.3.0-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2019-02-06</InstallDate>
+        <Size>472170606</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>

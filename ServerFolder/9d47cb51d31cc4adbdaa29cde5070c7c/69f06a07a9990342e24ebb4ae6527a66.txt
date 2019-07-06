@@ -1,0 +1,14 @@
+Найти книги в жанре детектив или фантастика(роман) год издания которіх позже 2010(1810):
+select distinct name from `lib` where year>1810 and(gener='detective' or gener='roman');
+
+Вывести название книги и количество слов в названии:
+select distinct name,length(name)-length(replace(name,' ',''))+1 as kol from `lib`;
+
+Для книг которые не вернули, вывести их название и сколько месяцев они на руках,опираясь на текущую дату:
+select name,month(curdate()-interval(year(btake))year-interval(month(btake))month)+year(curdate()-interval(year(btake))year-interval(month(btake))month)*12 as kol from lib where etake is null;
+
+Вывести последнего читателя самой дорогой книги
+select reader from lib order by price desc,btake desc limit 1;
+
+Вывести читателей,которые брали книги позже февраля 2018 года:
+select reader,btake from lib where datediff(btake,'2017-02-01')>0;
